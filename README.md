@@ -10,12 +10,12 @@ A collection of PHP projects from basic to advanced, including form handling, au
 
   <tbody>
     <tr>
-      <td width="33%" > <img src="images/SimpleForm.png"> </td>
+      <td width="33%" > <img src="images/Basic Login System.png"> </td>
       <td width="33%" >Basic Login System</td>
       <td width="33%" > <a href="https://github.com/Pankajdas0025/Entry-Level-react-projects/fork/" > Fork on GitHub</a></td>
     </tr>
       <tr>
-      <td width="33%" > <img src="images/SimpleForm.png"> </td>
+      <td width="33%" > <img src="images/Advance and Secure Login System.png"> </td>
       <td width="33%" >Advance & Secure Login System</td>
       <td width="33%" > <a href="https://github.com/Pankajdas0025/Entry-Level-react-projects/fork/" > Fork on GitHub</a></td>
     </tr>
