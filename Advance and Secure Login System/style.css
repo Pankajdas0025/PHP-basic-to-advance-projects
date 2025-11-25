@@ -1,0 +1,195 @@
+
+body{
+    overflow:hidden;
+    max-width: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.header {
+    background: rgb(248, 241, 164);
+    font-size: 1.05rem;
+    border-bottom: 4px solid black;
+    width: 100%;
+    height: 50px;
+    display: none;
+    overflow: hidden;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+}
+.box
+{   color: #000;
+    height: 550px;
+    width: 420px;
+    border-radius: 15px;
+    margin:70px auto ;
+    background: linear-gradient(180deg,#6366f1,#f43f5e);
+    box-shadow:0px 0px 20px black inset;
+    padding: 0;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+
+}.sh
+{
+   height:60px;
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 12PX;
+    color:white;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-size:1.5rem;
+    top: 0;
+    border-radius: 30px 30px 0px 0px;
+}
+input{
+    padding:15px;
+    margin:20px 65px;
+    width: 250px;
+    border-radius:5px;
+    outline: none;
+    border:0px white;
+    font-size: 15px;
+    /* box-shadow: 2px 1px 12px rgb(0, 0, 0); */
+}input:focus {
+  border-color: var(--primary-color);
+}#Signupbtn
+{
+    width: 280px;
+    border-radius: 5px;
+    margin-left:65px;
+    background: #6366f1;;
+    color: rgb(2, 2, 2);
+    box-shadow:0px 0px 0px rgb(0, 0, 0);
+    font-family:sans-serif;
+    font-weight: bold;
+    color: white;
+}#Signupbtn:hover
+{
+    background: #4043e9;
+    box-shadow: 1px 1px 2px black}
+#Loginbtn
+{
+    width: 280px;
+    border-radius: 5px;
+    margin-left:65px;
+    background: #6366f1;;
+    color: rgb(2, 2, 2);
+    box-shadow:0px 0px 0px rgb(0, 0, 0);
+    font-family:sans-serif;
+    font-weight: bold;
+    color: white;
+}#Loginbtn:hover
+{
+    background: #4043e9;
+    box-shadow: 1px 1px 2px black
+}
+
+#lbtn , #Sibtn{  color: white;}
+
+#ppass
+{
+    font-size: 15px;
+    padding-left:210px;
+    margin: 0;
+    color: white;
+
+}
+.box p{
+    padding: 5px 50px;
+    align-items: center;
+    text-align: center;
+    color: white;
+}.box2{
+
+    height: 550px;
+    width: 420px;
+    background: linear-gradient(90deg,#6366f1,#f43f5e);
+    box-shadow:0px 0px 20px black inset;
+    position: absolute;
+    display: none;
+    top: 70px;
+    border-radius: 15px;
+}a{
+    color: white;
+}
+
+/* Mobile responsive------------------------------------------------------------------------------------------------------------------- */
+@media screen and (max-width:600px)
+{
+    body{
+    overflow:hidden;
+    max-width: 100%;
+    width: 100%;
+     min-height: 100vh;
+
+}  .box
+{   color: #000;
+    min-height: 100vh;
+    max-width:100vw;
+    display: block;
+    margin: 0;
+    overflow: hidden;
+    position: fixed;
+
+}input{
+    padding:15px 10px;
+    margin:20px 25px;
+    width: 250px;
+    border-radius:5px;
+    outline: none;
+    border:0px white;
+    font-size: 15px;
+    box-shadow: 2px 1px 5px #6366f1;
+}#Signupbtn
+{
+    width: 280px;
+    border-radius: 5px;
+    margin-left:20.5px;
+    background: #6366f1;;
+    color: rgb(2, 2, 2);
+    box-shadow:0px 0px 0px rgb(0, 0, 0);
+    font-family:sans-serif;
+    font-weight: bold;
+    color: white;
+} .box2{
+
+    height: 750px;
+    max-width:100vw;
+    border-radius: 30px;
+    margin:50px 0;
+    position: absolute;
+    display: none;
+    margin-top: -80px;
+    overflow: hidden;
+    min-height: 100vh;
+
+}#Loginbtn
+{
+    width: 280px;
+    border-radius: 5px;
+    margin-left:25px;
+    background: #6366f1;;
+    color: rgb(2, 2, 2);
+    box-shadow:0px 0px 0px rgb(0, 0, 0);
+    font-family:sans-serif;
+    font-weight: bold;
+    color: white;
+}
+}
+
+
+
+
+
+
+
+
+
+
