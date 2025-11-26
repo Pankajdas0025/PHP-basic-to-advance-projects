@@ -1,0 +1,148 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*
+{
+    padding: 5px;
+}
+
+
+main
+{
+width:70vw;
+height:auto;
+background-color:rgb(255, 255, 255);
+margin: 10vh auto;
+display:flex;
+flex-direction:column;
+font-family: "Poppins", sans-serif;
+font-weight: 600;
+font-style: normal;
+box-shadow: 1px 1px 10px rgb(20, 14, 14) inset;
+border-radius: 10px;
+
+}
+.heading
+
+{
+height:100px;
+font-size: 30px;
+padding: 10px;
+display: flex;
+flex-direction: column;
+}.head
+
+{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+}
+.message
+{
+    padding-right: 20px;
+    font-size: 20px;
+    align-items: center;
+    align-content: center;
+}
+
+.heading button
+
+{
+    width: 15%;
+    font-size: 15px;
+    margin: 5px 0;
+    border-radius: 10px;
+    outline: none;
+}
+
+
+
+.add
+
+{
+
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    display: none;;
+
+}
+.add input
+{
+    height: 50%;
+    width: 20%;
+    margin:auto 2px;
+}
+.add input[type="submit"]
+
+{
+background-color: rgb(101, 249, 101);
+height:52px;
+width: 20%;
+font-size:18px;
+font-weight: bold;
+}
+table
+
+{
+text-align: left;
+border-collapse: collapse;
+
+}
+table th
+{
+    background-color: #e0a800;
+}
+
+.a1 { background: #8f9fa2ff; } /* view */
+.a2 { background: #ffc107; } /* edit */
+.a3 { background: #dc3545; } /* delete */
+
+.a1:hover { background: #138496; }
+.a2:hover { background: #e0a800; }
+.a3:hover { background: #c82333; }
+
+.updateModal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.updateBox {
+    background: white;
+    padding: 20px;
+    width: 450px;
+    margin: 5% 30%;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.updateBox input {
+    width: 90%;
+    padding: 8px;
+    margin: 10px 0;
+}
+
+.updateSubmit {
+    background: #0077ff;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+#closeModal {
+    background: crimson;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+}
+
