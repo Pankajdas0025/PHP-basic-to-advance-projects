@@ -54,7 +54,7 @@ display:none;
 
 <?php
 
-$conn = new mysqli ("localhost", "root","****","PHP_BASIC_PROJECTS");
+$conn = new mysqli ("localhost", "root","","PHP_BASIC_PROJECTS");
 if($conn->connect_error)
 {
     echo "Failed to connect database! ";
