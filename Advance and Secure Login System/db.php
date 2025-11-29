@@ -1,6 +1,6 @@
 <?php
 $server="localhost";
-$password = ""; //Enter your Password
+$password = "pankaj"; //Enter your Password
 $user="root";
 $database="php_basic_projects";
 

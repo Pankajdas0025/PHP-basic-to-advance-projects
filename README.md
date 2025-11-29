@@ -30,8 +30,8 @@ A collection of PHP projects from basic to advanced, including form handling, au
        <td width="33%" > <a href="https://github.com/Pankajdas0025/PHP-basic-to-advance-projects/fork/" > Fork on GitHub</a></td>
     </tr>
       <tr>
-      <td width="33%" > <img src="images/SimpleForm.png" height="250"> </td>
-      <td width="33%" >REST API in PHP (CRUD)</td>
+      <td width="33%" > <img src="images/CRUD using REST API.png" height="250"> </td>
+      <td width="33%" >CRUD using REST API</td>
      <td width="33%" > <a href="https://github.com/Pankajdas0025/PHP-basic-to-advance-projects/fork/" > Fork on GitHub</a></td>
     </tr>
       </tbody>
