@@ -1,0 +1,86 @@
+
+<!-- Load index.html in Localhost ================================== -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Random Password Generator</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, gray, #2575fc);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .container {
+      background-color: #fff;
+      box-shadow: 0px 0px 25px black inset;
+      padding: 2rem;
+      border-radius: 12px;
+      text-align: center;
+      width: 400px;
+    }
+
+    h2 {
+      margin-bottom: 1rem;
+      color: #333;
+    }
+
+    input[type="text"] {
+      width: 250px;
+      padding: 0.8rem;
+      margin-bottom: 1rem;
+      font-size: 1rem;
+      text-align: center;
+    }
+
+    button {
+      background-color: #2275fc;
+      color: white;
+      padding: 0.8rem 1.2rem;
+      border: none;
+      border-radius: 8px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #1a5be0;
+    }
+  </style>
+
+  <!-- jQuery CDN ===============================================-->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h2>Random Password Generator</h2>
+    <input type="text" id="password" placeholder="Your password will appear here" readonly />
+    <button class="Pass-gen">Generate Password</button>
+  </div>
+
+  <script>
+    $(document).ready(function () {
+      $(".Pass-gen").click(function () {
+        $.ajax({
+          type: "POST",
+          url: "Generate.php",
+          success: function (response) {
+            $("#password").val(response);
+          },
+          error: function () {
+            alert("Something went wrong while generating the password.");
+          }
+        });
+      });
+    });
+  </script>
+</body>
+</html>
