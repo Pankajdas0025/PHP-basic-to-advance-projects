@@ -8,40 +8,45 @@ A collection of PHP projects from basic to advanced, including form handling, au
   </thead>
 
   <tbody>
-    <tr>
-      <td width="33%" > <img src="images/Basic Login System.png" height="250"> </td>
-      <td width="33%" >Basic Login System</td>
-       <td width="33%" > <a href="https://github.com/Pankajdas0025/PHP-basic-to-advance-projects/fork/" > Fork on GitHub</a></td>
-    </tr>
-      <tr>
-      <td width="33%" > <img src="images/Advance and Secure Login System.png" height="250"> </td>
-      <td width="33%" >Advance & Secure Login System</td>
-        <td width="33%" > <a href="https://github.com/Pankajdas0025/PHP-basic-to-advance-projects/fork/" > Fork on GitHub</a></td>
-    </tr>
-      <tr>
-      <td width="33%" > <img src="images/Image Upload System.png" height="250"> </td>
-      <td width="33%" >Image Upload System</td>
-       <td width="33%" > <a href="https://github.com/Pankajdas0025/PHP-basic-to-advance-projects/fork/" > Fork on GitHub</a></td>
-    </tr>
-      <tr>
-      <td width="33%" > <img src="images/PHP CRUD Application.png" height="250"> </td>
-      <td width="33%" >PHP CRUD Application</td>
-       <td width="33%" > <a href="https://github.com/Pankajdas0025/PHP-basic-to-advance-projects/fork/" > Fork on GitHub</a></td>
-    </tr>
-      <tr>
-      <td width="33%" > <img src="images/CRUD using REST API.png" height="250"> </td>
-      <td width="33%" >CRUD using REST API</td>
-     <td width="33%" > <a href="https://github.com/Pankajdas0025/PHP-basic-to-advance-projects/fork/" > Fork on GitHub</a></td>
-    </tr>
-       <tr>
-      <td width="33%" > <img src="images/PHPMailer.png" height="250"> </td>
-      <td width="33%" >Email Sender using PHPMailer</td>
-     <td width="33%" > <a href="https://github.com/Pankajdas0025/PHP-basic-to-advance-projects/fork/" > Fork on GitHub</a></td>
-    </tr>
-     <tr>
-      <td width="33%" > <img src="images/Random-password.png" height="250"> </td>
-      <td width="33%" >Random Password Generator </td>
-     <td width="33%" > <a href="https://github.com/Pankajdas0025/PHP-basic-to-advance-projects/fork/" > Fork on GitHub</a></td>
-    </tr>
+        <tr>
+            <td width="33%" > <img src="images/Basic Login System.png" height="250"> </td>
+            <td width="33%" >Basic Login System</td>
+            <td width="33%" > <a href="https://github.com/Pankajdas0025/PHP-basic-to-advance-projects/fork/" > Fork on GitHub</a></td>
+        </tr>
+        <tr>
+            <td width="33%" > <img src="images/Advance and Secure Login System.png" height="250"> </td>
+            <td width="33%" >Advance & Secure Login System</td>
+            <td width="33%" > <a href="https://github.com/Pankajdas0025/PHP-basic-to-advance-projects/fork/" > Fork on GitHub</a></td>
+        </tr>
+        <tr>
+            <td width="33%" > <img src="images/Image Upload System.png" height="250"> </td>
+            <td width="33%" >Image Upload System</td>
+            <td width="33%" > <a href="https://github.com/Pankajdas0025/PHP-basic-to-advance-projects/fork/" > Fork on GitHub</a></td>
+        </tr>
+        <tr>
+            <td width="33%" > <img src="images/PHP CRUD Application.png" height="250"> </td>
+            <td width="33%" >PHP CRUD Application</td>
+            <td width="33%" > <a href="https://github.com/Pankajdas0025/PHP-basic-to-advance-projects/fork/" > Fork on GitHub</a></td>
+        </tr>
+        <tr>
+            <td width="33%" > <img src="images/CRUD using REST API.png" height="250"> </td>
+            <td width="33%" >CRUD using REST API</td>
+            <td width="33%" > <a href="https://github.com/Pankajdas0025/PHP-basic-to-advance-projects/fork/" > Fork on GitHub</a></td>
+        </tr>
+        <tr>
+            <td width="33%" > <img src="images/PHPMailer.png" height="250"> </td>
+            <td width="33%" >Email Sender using PHPMailer</td>
+            <td width="33%" > <a href="https://github.com/Pankajdas0025/PHP-basic-to-advance-projects/fork/" > Fork on GitHub</a></td>
+        </tr>
+        <tr>
+            <td width="33%" > <img src="images/Random-password.png" height="250"> </td>
+            <td width="33%" >Random Password Generator </td>
+            <td width="33%" > <a href="https://github.com/Pankajdas0025/PHP-basic-to-advance-projects/fork/" > Fork on GitHub</a></td>
+        </tr>
+        <tr>
+            <td width="33%" > <img src="images/Live Search.png" height="250"> </td>
+            <td width="33%" >Live Search Using PHP & AJAX</td>
+            <td width="33%" > <a href="https://github.com/Pankajdas0025/PHP-basic-to-advance-projects/fork/" > Fork on GitHub</a></td>
+        </tr>
       </tbody>
   </table>

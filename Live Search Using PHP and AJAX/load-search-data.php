@@ -21,8 +21,14 @@ if($response->num_rows>0)
                     </tr>" ;
 
             }
+            echo $table;
     }
+    else
+        {
+            echo "No Data Found!";
+        }
+
     }
-echo $table;
+
 
 
