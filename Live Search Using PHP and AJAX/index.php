@@ -6,9 +6,27 @@
     <title>Live Search using PHP and AJAX</title>
     <!-- Bootstrap CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        .pagination li a
 
+        {
+            padding: 5px 10px;
+            background-color: skyblue;
+            margin:1.5px 1px;
+            text-decoration: none;
+            color:white;
+        }
+          .pagination .active
+
+        {
+
+            background-color: green;
+
+        }
+    </style>
 </head>
-<body><div class="container bg-warning mx-auto mt-4 shadow bordered">
+<body><div class="container bg-warning mx-auto w-50 mt-4 shadow bordered">
          <div class="row" >
              <div class="col-12 mw-100 my-5 p-3">
                 <h2 class="text-dark">Live Search Using PHP and AJAX</h2>
@@ -26,6 +44,10 @@
                           <!-- Dynamic data load Here ............ -->
                         </tbody>
                     </table>
+
+
+
+                    </div>
                 </div>
          </div>
          </div>
