@@ -4,24 +4,25 @@ $username = "root";
 $password = "pankaj";
 $dbname = "php_basic_projects";
 $conn = new mysqli($servername, $username, $password, $dbname);
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
-
-// Get ID if we are updating
-$update_id = isset($_GET['edit']) ? intval($_GET['edit']) : 0;
-$oldImage = "";
-$oldName = "";
-
-// If editing, fetch old data
-if($update_id > 0){
-    $fetch = $conn->query("SELECT * FROM uploads WHERE id=$update_id");
-    if($fetch->num_rows > 0){
-        $data = $fetch->fetch_assoc();
-        $oldImage = $data['file_path'];
-        $oldName = $data['name'];
+if ($conn->connect_error) 
+    {
+        die("Connection failed: " . $conn->connect_error);
     }
-}
+
+    // Get ID if we are updating
+    $update_id = isset($_GET['edit']) ? intval($_GET['edit']) : 0;
+    $oldImage = "";
+    $oldName = "";
+
+        // If editing, fetch old data
+        if($update_id > 0){
+            $fetch = $conn->query("SELECT * FROM uploads WHERE id=$update_id");
+            if($fetch->num_rows > 0){
+                $data = $fetch->fetch_assoc();
+                $oldImage = $data['file_path'];
+                $oldName = $data['name'];
+            }
+        }
 ?>
 
 <!DOCTYPE html>

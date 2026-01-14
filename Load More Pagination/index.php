@@ -6,10 +6,8 @@
     <title>Live Search using PHP and AJAX</title>
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-
 </head>
 <body>
-
 <div class="w-[100%] mx-auto p-[5px] bg-sky-500 shadow-[0px_0px_5px_black] font-sans sm:w-[50%]">
     <div class="bg-yellow-500 my-[5px] text-black-700 p-[10px] text-[2rem] font-bold-100">
       Load More Pagination Using PHP and AJAX
