@@ -13,7 +13,6 @@
       Load More Pagination Using PHP and AJAX
     </div>
     <div>
-
             <table class='table-auto w-[100%] bg-white text-left'>
             <thead id='table-head'>
                 <tr class='bg-green-500 text-white'>
